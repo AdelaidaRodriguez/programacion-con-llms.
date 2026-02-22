@@ -1,0 +1,9 @@
+Estuve pensando que en una tienda es vital saber qué productos caros se están agotando para no perder ventas importantes.
+
+Crea una función llamada filtrar_criticos(df) que haga lo siguiente:
+
+* Busque en la columna 'stock' aquellos productos que tengan menos de 15 unidades.
+* De esos resultados, filtre nuevamente para dejar solo los que tengan un 'precio' mayor a 50.0.
+* Al final, devuélveme el DataFrame solo con esos productos que cumplen ambas condiciones.
+
+Esto nos ayudaría mucho a priorizar las compras del mes.
