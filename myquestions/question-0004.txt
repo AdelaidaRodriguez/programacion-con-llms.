@@ -1,0 +1,11 @@
+Aprendí que muchos algoritmos de IA se confunden si una columna tiene números pequeños y otra tiene números muy grandes. Para arreglarlo, hay que estandarizar los datos.
+
+Haz una función que se llame estandarizar_datos(X) con estos pasos:
+
+* Usa la clase StandardScaler del módulo sklearn.preprocessing.
+* Calcula la media y la desviación de la matriz de entrada X.
+* Transforma los datos para que todos queden en la misma escala (media 0 y varianza 1).
+* Devuelve la nueva matriz ya transformada.
+
+Esto es un paso clave antes de entrenar cualquier modelo serio.
+  
