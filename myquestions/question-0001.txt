@@ -1,0 +1,9 @@
+Ejercicio 0001: Procesamiento de datos faltantes con Pandas
+
+En el análisis exploratorio de datos, es común encontrar registros incompletos que pueden sesgar los resultados estadísticos. Se requiere una rutina de limpieza automatizada para manejar estos casos.
+
+Implementar una función en Python denominada limpiar_nulos(df, columna) que cumpla con los siguientes requisitos:
+
+* Recibir como parámetros un objeto DataFrame y el nombre de una columna específica.
+* Identificar y eliminar todas las filas donde la columna indicada contenga valores nulos (NaN o None).
+* Retornar el DataFrame resultante con el índice actualizado tras la eliminación de registros.
