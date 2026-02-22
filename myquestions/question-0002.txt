@@ -1,0 +1,10 @@
+Me di cuenta de que cuando trabajamos con modelos de IA, a veces los datos vienen incompletos y eso daña el entrenamiento. Por eso, quiero proponer una función que arregle esto de forma automática.
+
+La idea es crear una función llamada imputar_datos(X) siguiendo estos pasos:
+
+* Usa la herramienta SimpleImputer de la librería sklearn.impute.
+* Configura el proceso para que los huecos vacíos (NaN) se rellenen con la mediana de cada columna.
+* Haz que la función aprenda de los datos de entrada X y los transforme de una vez.
+* Al final, devuélveme la tabla o matriz ya completa, sin ningún valor nulo.
+
+Con esto nos aseguramos de que el modelo no falle por falta de datos.
